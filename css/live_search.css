@@ -1,0 +1,17 @@
+.elastic li.hide {
+    display: none;
+}
+.elastic a.hide {
+    display: none;
+}
+.elastic p.hide {
+    display: none;
+}
+
+.podrazdelenie a.hide {
+    display: none;
+}
+
+.contacts tr.hide {
+    display: none;
+}

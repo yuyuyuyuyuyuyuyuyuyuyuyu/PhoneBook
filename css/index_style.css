@@ -1,0 +1,107 @@
+body
+{
+    color: aliceblue;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-image: url(../images/backgrounds-blank-blue-953214.jpg); */
+    background-image: url(../images/alfaradon.jpg);
+}
+
+
+.jum
+{
+    padding: 30px 30px;
+    padding-bottom: 0px;
+    width: 90%;
+    margin: auto;
+    background-color: rgba(0,0,0,0.3);
+   
+}
+
+.jum2 {
+    padding: 30px 30px;
+    padding-bottom: 0px;
+    width: 90%;
+    margin: auto;
+    background-color: rgba(29,78,124,.7);
+}
+
+.tableh1 th
+{
+    width: 30%;
+}
+
+.icon
+{
+    position: absolute;
+    top: 18px;
+    left: 88%;
+    font-size: 20px;
+    
+    
+}
+
+.alert
+{
+    display: none;
+}
+
+.btn1
+{
+    margin-bottom: 20px;
+}
+
+.text-center {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.my_box {
+    border: 10px solid rgba(29,78,124,.6);
+    border-radius: 1em;
+    border-top-right-radius: 10% 30%;
+    background-color: rgba(29,78,124,.6);
+    color:rgb(235, 239, 239);
+  }
+  
+  .tr_text{
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  h2:target {
+    background: #1b11a3;
+    color: #fff;
+    padding: 5px;
+   }
+   
+.sticky {
+    position: fixed;
+    top: 0px;  /* если ноль заменить на число (и в скрипте тоже), то блок будет прилипать до того, как верхний край окна браузера дойдёт до верхнего края элемента. Может быть отрицательным числом. Применим, например, при фиксированном сверху меню */
+    z-index: 101;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Для Firefox */
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+
+ 
+  
+
+/* .title_new {
+    background: #484847;
+    color: #fff;
+    width: auto;
+    padding: 2px 7px;
+    display: inline;
+    box-shadow: -7px solid #df2721, 7px solid #df2721;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+  } */
